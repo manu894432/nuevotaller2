@@ -1,0 +1,105 @@
+parte 1 
+INICIO
+
+1. Abrir el navegador web.
+2. Ingresar a la cuenta de GitHub.
+3. Crear un nuevo repositorio público llamado según las instrucciones dadas.
+4. Abrir el explorador de archivos en el computador.
+5. Crear una nueva carpeta en el escritorio llamada "logica nuevo".
+6. Hacer clic derecho sobre la carpeta "logica nuevo" y seleccionar "Abrir con Git Bash".
+7. Copiar las instrucciones que GitHub muestra para vincular un repositorio y pegarlas en la terminal de Git Bash.
+8. Escribir el comando `pwd` para verificar la ruta actual.
+9. SI la ruta no corresponde a la carpeta "logica nuevo", ENTONCES:
+      9.1. Escribir el comando `cd` seguido de la ruta correcta de la carpeta "logica nuevo".
+10. Volver a pegar las instrucciones dadas por GitHub para enlazar con el repositorio creado.
+11. Cerrar la terminal de Git Bash.
+12. Verificar en GitHub que se haya subido el archivo README.md.
+13. Abrir el explorador de archivos y confirmar que en la carpeta "logica nuevo" esté creado el archivo README.md.
+14. Abrir Git Bash nuevamente en la carpeta "logica nuevo".
+15. Escribir el comando `history` para visualizar el historial de comandos ejecutados.
+16. Escribir el comando `history | cat >> readme.md` para guardar el historial en el archivo README.md.
+17. Ejecutar `git add .` para preparar los cambios.
+18. Ejecutar `git commit -m "Comentario sobre el cambio"` para registrar los cambios.
+19. Ejecutar `git push -u origin main` para subir los cambios al repositorio de GitHub.
+20. Confirmar en GitHub que el archivo README.md contiene el historial de comandos.
+
+FIN
+
+parte 2 
+
+INICIO
+
+1. Abrir Visual Studio Code desde la carpeta "logica nuevo".
+2. Crear una nueva rama llamada "taller2".
+3. SI aparece una rama anterior,
+      3.1. Abrir Git Bash.
+      3.2. Usar el comando `cd <ruta>` para cambiar a la carpeta correcta "logicanuevo".
+4. Crear una nueva rama llamada "tallernuevo2".
+5. Crear un archivo de texto llamado "tallernuevo2.txt" usando el comando:
+      `touch tallernuevo2.txt`
+6. Guardar y subir el archivo a GitHub ejecutando:
+      6.1. `git add .`
+      6.2. `git commit -m "cree una rama txt"`
+      6.3. `git push -u origin main`
+7. Abrir el archivo "tallernuevo2.txt" con el editor nano:
+      `nano tallernuevo2.txt`
+8. Escribir el nombre y apellido dentro del archivo.
+9. Guardar y cerrar el editor nano.
+10. Abrir el explorador de archivos y verificar que el cambio se haya guardado localmente.
+11. Subir nuevamente los cambios a GitHub ejecutando:
+      11.1. `git add .`
+      11.2. `git commit -m "cree txt"`
+      11.3. `git push -u origin tallernuevo2`
+12. Confirmar en GitHub que el archivo "tallernuevo2.txt" contiene el nombre y apellido.
+
+FIN
+ parte 3 
+
+INICIO
+
+1. Cambiar a la rama principal:
+      comando: git checkout main
+
+2. Crear 3 carpetas en la ruta actual:
+      comando: mkdir hola_mundo variables entradaysalida
+
+3. Entrar a la carpeta "hola_mundo":
+      comando: cd hola_mundo
+4. Crear el archivo "hola.py":
+      comando: touch hola.py
+5. Editar "hola.py" para que imprima "Hola mundo".
+6. Subir cambios a GitHub:
+      6.1. git add .
+      6.2. git commit -m "Agregado hola.py con mensaje Hola mundo"
+      6.3. git push -u origin main
+
+7. Volver a la carpeta raíz:
+      comando: cd ..
+
+8. Entrar a la carpeta "variables":
+      comando: cd variables
+9. Crear el archivo "suma.py":
+      comando: touch suma.py
+10. Editar "suma.py" para que pida dos números, los sume y muestre el resultado.
+11. Subir cambios a GitHub:
+      11.1. git add .
+      11.2. git commit -m "Agregado suma.py para sumar dos números"
+      11.3. git push
+
+12. Volver a la carpeta raíz:
+      comando: cd ..
+
+13. Entrar a la carpeta "entradaysalida":
+      comando: cd entradaysalida
+14. Crear el archivo "entrada.py":
+      comando: touch entrada.py
+15. Editar "entrada.py" para que pida nombre y edad, y muestre un saludo con esos datos.
+16. Subir cambios a GitHub:
+      16.1. git add .
+      16.2. git commit -m "Agregado entrada.py para pedir nombre y edad"
+      16.3. git push
+
+17. Confirmar en GitHub que todos los archivos se encuentran en sus carpetas correspondientes y funcionan correctamente.
+
+FIN
+
