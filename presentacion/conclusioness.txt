@@ -1,0 +1,51 @@
+Conclusiones para la exposición: Función de comandos usados en el taller
+
+Comandos de navegación y manipulación de archivos en la terminal
+
+- pwd  
+  Muestra la ruta o directorio actual donde estoy trabajando dentro de la terminal. Sirve para saber en qué carpeta estoy ubicado.
+
+- cd  
+  Cambia el directorio actual a otro especificado. Por ejemplo, cd carpeta me mueve a la carpeta llamada "carpeta".
+
+- cd ..  
+  Me mueve un nivel arriba en la jerarquía de carpetas, es decir, a la carpeta padre.
+
+- ls  
+  Lista los archivos y carpetas que hay dentro del directorio actual, ayudándome a ver qué contenido tengo.
+
+- mkdir  
+  Crea una nueva carpeta o directorio dentro del lugar donde estoy trabajando.
+
+- copy  
+  Comando para copiar archivos de un lugar a otro dentro del sistema. (En Linux/macOS es cp).
+
+- touch  
+  Crea un archivo nuevo vacío, o actualiza la fecha de modificación de un archivo existente.
+
+- cat  
+  Muestra el contenido de un archivo en la terminal, útil para leer rápidamente sin abrir editores.
+
+Comandos de Git para control de versiones
+
+- git add .  
+  Añade todos los cambios (archivos nuevos, modificados o eliminados) al área de preparación (staging), para que Git los tenga listos para el siguiente commit.
+
+- git commit -m "mensaje"  
+  Guarda una "foto" de los archivos en el área de preparación con un mensaje descriptivo, dejando un registro de los cambios hechos.
+
+- git push -u origin nombre-rama  
+  Envía los commits locales a un repositorio remoto en GitHub (u otro), actualizando la rama especificada. La opción -u establece la rama remota por defecto para futuros pushes.
+
+- git branch  
+  Lista las ramas disponibles o crea una nueva rama si se añade un nombre después del comando. Las ramas permiten trabajar en paralelo sin afectar la rama principal.
+
+- git rm  
+  Elimina un archivo del repositorio Git y también del sistema de archivos, marcando ese cambio para ser incluido en el próximo commit.
+
+Reflexión general para la exposición
+
+Estos comandos me permitieron manejar y organizar mi proyecto de manera ordenada, facilitando el control de versiones con Git. Aprendí a navegar por carpetas, crear y eliminar archivos y carpetas, y a trabajar en diferentes ramas para gestionar cambios sin afectar el proyecto principal.
+
+Con Git, pude subir mis cambios a un repositorio remoto, lo que me permite mantener mi trabajo seguro y compartirlo con otras personas fácilmente.
+
